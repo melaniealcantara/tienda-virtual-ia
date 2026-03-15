@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  color: #343a40;
+}
+
+.card img {
+  height: 220px;
+  object-fit: contain;
+  padding: 15px;
+  background-color: #fff;
+}
+
+.card {
+  border: none;
+  border-radius: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  height: 100%;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
+}
+
+.btn {
+  border-radius: 10px;
+}
+
+#detalleProducto img {
+  max-height: 300px;
+  object-fit: contain;
+}
+
+.item-carrito {
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+}
+
+.item-carrito:last-child {
+  border-bottom: none;
+}
